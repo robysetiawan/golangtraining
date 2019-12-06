@@ -1,0 +1,37 @@
+package main
+
+import (
+	"fmt"
+	"sejutaprogrammer/day2"
+)
+
+func main() {
+	// fmt.Println("no 1")
+	// fmt.Println(day2.GetPrime(1))
+	// fmt.Println(day2.GetPrime(5))
+	// fmt.Println(day2.GetPrime(8))
+	// fmt.Println(day2.GetPrime(9))
+	// fmt.Println(day2.GetPrime(10))
+
+	// fmt.Println("\nno 2")
+	// var a, b, c, d, e, f int
+	// fmt.Scan(&a)
+	// fmt.Scan(&b)
+	// fmt.Scan(&c)
+	// fmt.Scan(&d)
+	// fmt.Scan(&e)
+	// fmt.Scan(&f)
+	// min, max := day2.GetMinmax(&a, &b, &c, &d, &e, &f)
+	// fmt.Printf("%v is the maximum number\n", max)
+	// fmt.Printf("%v is the maximum number", min)
+
+	fmt.Println("\nno 3")
+	fmt.Println("My totally sweet testing script")
+	fmt.Println("inpur  | expected  | actual")
+	fmt.Println("-------|-----------|-------")
+	fmt.Println("4      | IV        |", day2.ToRoman(4))
+	fmt.Println("9      | IX        |", day2.ToRoman(9))
+	fmt.Println("23     | XXIII     |", day2.ToRoman(23))
+	fmt.Println("1453   | MCDLIII   |", day2.ToRoman(1453))
+	fmt.Println("1646   | MDCXLVI   |", day2.ToRoman(1646))
+}
